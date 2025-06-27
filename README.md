@@ -1,5 +1,3 @@
-Collecting workspace information# Impacto de Airbnb en el Mercado Inmobiliario de Barcelona
-
 ## Análisis de la Turistificación y Crisis Habitacional (2024-2025)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
