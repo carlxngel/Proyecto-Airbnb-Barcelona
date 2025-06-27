@@ -82,14 +82,6 @@ Basado en el análisis, se proponen recomendaciones estructuradas en:
 - Serie histórica de precios inmobiliarios (2015-2025)
 - Datos demográficos y urbanísticos de Barcelona
 
-## 👥 Contribuciones
-
-Las contribuciones son bienvenidas. Si desea contribuir:
-1. Haga un fork del repositorio
-2. Cree una nueva rama (`git checkout -b feature/analysis`)
-3. Realice sus cambios y documente adecuadamente
-4. Envíe un pull request con descripción detallada
-
 ## 📄 Licencia
 
 Este proyecto está bajo la Licencia MIT - vea el archivo LICENSE para más detalles.
