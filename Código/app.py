@@ -1197,6 +1197,6 @@ elif app_mode == "🔍 Conclusiones":
 # Footer
 st.markdown("""
 <div class="footer">
-<i>Estudio realizado por Carla Molina para Upgrade Hub en 2025, basado en datos contrastados de Airbnb y licencias turísticas oficiales del Gobierno de España.</i>
+<i>Estudio realizado por Carla Molina en 2025, basado en datos contrastados de Airbnb, histórico de precios de venta y alquiler de la ciudad de Barcelona y licencias turísticas oficiales del Gobierno de España.</i>
 </div>
 """, unsafe_allow_html=True)

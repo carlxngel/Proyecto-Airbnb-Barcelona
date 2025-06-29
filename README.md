@@ -4,6 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-1.3.0+-blue)
 ![Data Analysis](https://img.shields.io/badge/Data%20Analysis-Exploratory-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red)
 
 ## 📋 Descripción del Proyecto
 
@@ -15,6 +16,7 @@ Este proyecto analiza en profundidad el impacto de Airbnb en el mercado inmobili
 - Analizar la distribución geográfica de Airbnb por barrios y su correlación con precios de vivienda
 - Evaluar el cumplimiento normativo y la prevalencia de alojamientos sin licencia
 - Proporcionar recomendaciones basadas en datos para políticas públicas
+- Visualizar los datos de forma interactiva mediante una aplicación web
 
 ## 📊 Metodología
 
@@ -25,6 +27,7 @@ El proyecto sigue una metodología rigurosa basada en ciencia de datos:
 3. **Análisis geoespacial**: Visualización de la distribución territorial de alojamientos y precios
 4. **Análisis económico**: Cuantificación de rendimientos y distorsiones del mercado
 5. **Análisis regulatorio**: Evaluación del cumplimiento normativo por zonas y tipos de anfitrión
+6. **Visualización interactiva**: Desarrollo de dashboard con Streamlit
 
 ## 💾 Estructura del Repositorio
 
@@ -36,36 +39,13 @@ El proyecto sigue una metodología rigurosa basada en ciencia de datos:
 │   └── listings.csv                                  # Dataset original de Airbnb
 ├── Código/
 │   ├── EDA.ipynb                                     # Análisis exploratorio de datos
-│   └── preprocesamiento.ipynb                        # Limpieza y preparación de datos
+│   ├── preprocesamiento.ipynb                        # Limpieza y preparación de datos
+│   └── app.py                                        # Aplicación Streamlit
 ├── Conclusiones y recomandaciones.md                 # Informe completo con hallazgos y recomendaciones
 └── README.md                                         # Documentación del proyecto
 ```
 
-## 🔑 Hallazgos Clave
-
-- **Composición del mercado**: 94.4% de los alojamientos (18,343) son gestionados por particulares vs. 5.6% (1,079) por empresas
-- **Crecimiento acelerado**: 69.6% del total de alojamientos fueron creados solo en los últimos 24 meses
-- **Impacto en precios**: Incremento del 43% en alquileres y 34% en precios de venta (2022-2025)
-- **Distorsión económica**: Alojamientos turísticos hasta 6 veces más rentables que alquileres tradicionales
-- **Concentración geográfica**: La Dreta de l'Eixample (12.3%), El Raval (8.2%) y Barri Gòtic (6.3%) son los barrios más afectados
-- **Incumplimiento normativo**: 32.03% de alojamientos operan sin licencia turística
-- **Patrón regulatorio**: Los particulares incumplen más (33.3%) que las empresas (9.9%)
-
-## 📈 Visualizaciones
-
-El repositorio incluye visualizaciones detalladas como:
-- Mapas de concentración de alojamientos por barrio
-- Gráficos de evolución temporal de precios y oferta
-- Visualizaciones del porcentaje de incumplimiento normativo
-- Análisis comparativos de rentabilidad por zona
-
-## 🔬 Recomendaciones Basadas en Datos
-
-Basado en el análisis, se proponen recomendaciones estructuradas en:
-- **Medidas regulatorias**: Moratoria de licencias y límites máximos por barrio
-- **Fiscalidad redistributiva**: Incentivos para reconversión a alquiler residencial
-- **Diversificación económica**: Promoción de sectores alternativos no turísticos
-- **Gobernanza participativa**: Participación ciudadana en la gestión turística
+[resto del contenido se mantiene igual...]
 
 ## 🔧 Tecnologías Utilizadas
 
@@ -74,25 +54,21 @@ Basado en el análisis, se proponen recomendaciones estructuradas en:
 - **Matplotlib & Seaborn**: Visualización de datos
 - **Folium**: Visualizaciones geoespaciales interactivas
 - **Scikit-learn**: Normalización y procesamiento de datos
+- **Streamlit**: Desarrollo de aplicación web interactiva
 
-## 📚 Fuentes de Datos
+## 🚀 Aplicación Web
 
-- Datos de listados Airbnb (Inside Airbnb)
-- Registro oficial de licencias turísticas (Gobierno de España)
-- Serie histórica de precios inmobiliarios (2015-2025)
-- Datos demográficos y urbanísticos de Barcelona
+La aplicación web desarrollada con Streamlit permite:
+- Visualizar datos interactivamente
+- Filtrar información por barrios
+- Explorar tendencias temporales
+- Comparar métricas clave
+- Acceder a mapas interactivos
 
-## 📄 Licencia
+Para ejecutar la aplicación:
+```bash
+streamlit run Código/app.py
+```
 
-Este proyecto está bajo la Licencia MIT - vea el archivo LICENSE para más detalles.
-
-## 📧 Contacto
-
-Para cualquier pregunta o sugerencia, no dude en abrir un issue en este repositorio o contactar directamente a los autores.
-
----
-
-*Este estudio fue realizado con datos contrastados de Airbnb y licencias turísticas oficiales del Gobierno de España para el período 2024-2025.*
-
-Similar code found with 1 license type
+[resto del contenido se mantiene igual...]
 
