@@ -1093,98 +1093,106 @@ elif app_mode == "📝 Recomendaciones":
 
 # Conclusiones
 elif app_mode == "🔍 Conclusiones":
-    st.markdown('<div class="sub-header">7. Conclusiones</div>', unsafe_allow_html=True)
-    
-    # Section 7.1
-    st.markdown('<div class="section-header">Diagnóstico: Crisis Habitacional en Fase Crítica</div>', unsafe_allow_html=True)
-    
+    st.markdown('<div class="sub-header">CONCLUSIONES</div>', unsafe_allow_html=True)
+
     st.markdown("""
-    <div class="warning">
-    Barcelona se encuentra en un <strong>punto de inflexión crítico</strong>. Los datos revelan:
+    <div class="highlight">
+    Este análisis evidencia una crisis habitacional en fase crítica en Barcelona, donde la turistificación 
+    acelerada amenaza el tejido social y urbano de la ciudad, requiriendo una intervención regulatoria 
+    urgente y comprehensiva.
     </div>
     """, unsafe_allow_html=True)
-    
-    tab1, tab2, tab3 = st.tabs(["Urgencia Temporal", "Evidencia Empírica", "Naturaleza del Problema"])
-    
+
+    # Key metrics
+    metrics = [
+        ("CRECIMIENTO AIRBNB", 
+         "+69.6%", 
+         "En los últimos 24 meses"),
+        ("ALOJAMIENTOS IRREGULARES", 
+         "32%", 
+         "Operando sin licencia turística"),
+        ("INCREMENTO PRECIOS", 
+         "+43%", 
+         "En zonas más afectadas")
+    ]
+    create_metric_row(metrics)
+
+    # Create tabs for different analyses
+    tab1, tab2, tab3 = st.tabs(["Diagnóstico", "Escenarios", "Reflexión Final"])
+
     with tab1:
-        st.markdown("""
-        <div class="highlight">
-        <strong>🔥 Urgencia Temporal:</strong>
-        <ul>
-            <li><strong>Problema triplicado</strong> en 24 meses (69.6% de crecimiento)</li>
-            <li><strong>Ventana de oportunidad</strong> cerrándose rápidamente</li>
-            <li><strong>Coste de inacción</strong> exponencialmente mayor que coste de acción</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
-        
-    with tab2:
         st.markdown("""
         <div class="highlight">
         <strong>📊 Evidencia Empírica:</strong>
         <ul>
+            <li><strong>Problema triplicado</strong> en 24 meses (69.6% de crecimiento)</li>
             <li><strong>32% de ilegalidad</strong> = Fallo sistémico administrativo</li>
             <li><strong>6x más rentable</strong> = Incentivo estructural insostenible</li>
             <li><strong>43% incremento precios</strong> = Expulsión masiva de residentes</li>
         </ul>
         </div>
         """, unsafe_allow_html=True)
+
+    with tab2:
+        col1, col2 = st.columns(2)
         
+        with col1:
+            st.markdown("""
+            <div class="warning">
+            <strong>🚨 Sin Intervención:</strong>
+            <ul>
+                <li>Colapso del modelo residencial en centro histórico</li>
+                <li>Segregación socioespacial irreversible</li>
+                <li>Dependencia económica extrema del turismo</li>
+                <li>Pérdida definitiva de identidad urbana barcelonesa</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
+            
+        with col2:
+            st.markdown("""
+            <div class="info">
+            <strong>✅ Con Intervención Efectiva:</strong>
+            <ul>
+                <li>Reequilibrio entre turismo y residencia</li>
+                <li>Preservación del tejido social</li>
+                <li>Diversificación económica sostenible</li>
+                <li>Barcelona como modelo de turismo responsable</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
+
     with tab3:
         st.markdown("""
         <div class="highlight">
-        <strong>⚖️ Naturaleza del Problema:</strong>
+        <strong>Conclusión Final:</strong>
+
+        El análisis revela una crisis urbana sin precedentes en Barcelona, donde la proliferación descontrolada 
+        de alojamientos turísticos está transformando radicalmente el tejido social y económico de la ciudad.
+
+        <strong>Puntos Críticos:</strong>
         <ul>
-            <li><strong>No es efecto colateral</strong> de actividad económica legítima</li>
-            <li><strong>Es consecuencia directa</strong> de modelo que prioriza rentabilidad turística sobre derecho a vivienda</li>
-            <li><strong>Requiere intervención regulatoria</strong> urgente y comprehensiva</li>
+            <li>La conversión masiva de viviendas residenciales en alojamientos turísticos está provocando 
+            un éxodo forzado de residentes locales</li>
+            <li>El diferencial de rentabilidad (6x) entre alquiler turístico y tradicional genera un incentivo 
+            económico insostenible</li>
+            <li>La pérdida de tejido social amenaza la identidad cultural única de Barcelona</li>
         </ul>
+
+        <strong>El Dilema:</strong>
+        Barcelona se encuentra en una encrucijada histórica entre dos modelos de ciudad:
+        <ul>
+            <li>Ciudad-Marca: orientada al turismo y la rentabilidad a corto plazo</li>
+            <li>Ciudad-Hogar: que prioriza la calidad de vida de sus residentes y su sostenibilidad</li>
+        </ul>
+
+        La evidencia sugiere que solo una intervención regulatoria decisiva y urgente puede revertir esta 
+        tendencia y preservar el equilibrio entre turismo y vida local que hizo de Barcelona un referente mundial.
+
+        <strong>El futuro de Barcelona como ciudad habitable depende de decisiones políticas valientes que 
+        antepongan el derecho a la vivienda sobre la rentabilidad turística.</strong>
         </div>
         """, unsafe_allow_html=True)
-    
-    # Section 7.2
-    st.markdown('<div class="section-header">Escenarios Futuros</div>', unsafe_allow_html=True)
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        <div class="warning">
-        <strong>🚨 Sin Intervención:</strong>
-        <ul>
-            <li>Colapso del modelo residencial en centro histórico</li>
-            <li>Segregación socioespacial irreversible</li>
-            <li>Dependencia económica extrema del turismo</li>
-            <li>Pérdida definitiva de identidad urbana barcelonesa</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
-        
-    with col2:
-        st.markdown("""
-        <div class="info">
-        <strong>✅ Con Intervención Efectiva:</strong>
-        <ul>
-            <li>Reequilibrio entre turismo y residencia</li>
-            <li>Preservación del tejido social</li>
-            <li>Diversificación económica sostenible</li>
-            <li>Barcelona como modelo de turismo responsable</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    # Section 7.3
-    st.markdown('<div class="section-header">Reflexión Final</div>', unsafe_allow_html=True)
-    
-    st.markdown("""
-    <div class="highlight">
-    El éxito de cualquier estrategia dependerá de la <strong>capacidad política</strong> para equilibrar beneficios económicos del turismo con el <strong>derecho fundamental a la vivienda</strong>.
-    
-    No estamos ante un problema técnico sino ante una <strong>decisión política</strong>: ¿Qué modelo de ciudad queremos? ¿Barcelona para barceloneses o Barcelona para turistas?
-    
-    <strong>La respuesta a esta pregunta determinará el futuro de la ciudad para las próximas décadas.</strong>
-    </div>
-    """, unsafe_allow_html=True)
 
 # Footer
 st.markdown("""
