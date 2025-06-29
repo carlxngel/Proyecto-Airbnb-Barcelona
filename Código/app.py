@@ -872,233 +872,224 @@ elif app_mode == "🗺️ Geografía de la Turistificación":
 
 # Implicaciones Socioeconómicas
 elif app_mode == "👥 Implicaciones Socioeconómicas":
-    st.markdown('<div class="sub-header">5. Implicaciones Socioeconómicas</div>', unsafe_allow_html=True)
-    
-    # Section 5.1
-    st.markdown('<div class="section-header">5.1 Gentrificación Acelerada</div>', unsafe_allow_html=True)
-    st.markdown('<div class="subsection-header">Mecanismo de Expulsión</div>', unsafe_allow_html=True)
-    
-    st.markdown("""
-    <div class="highlight">
-    <strong>Mecanismo de Expulsión:</strong>
-    <ul>
-        <li><strong>Incentivo económico:</strong> Hasta 6x más rentable que alquiler tradicional</li>
-        <li><strong>Resultado:</strong> Retirada sistemática de viviendas del mercado residencial</li>
-        <li><strong>Agentes:</strong> Miles de pequeños propietarios actuando como gentrificadores involuntarios</li>
-    </ul>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    st.markdown('<div class="subsection-header">Impacto en Comunidades Locales</div>', unsafe_allow_html=True)
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        <div class="warning">
-        <strong>Impactos Negativos:</strong>
-        <ul>
-            <li>❌ Pérdida de tejido social en barrios históricos</li>
-            <li>❌ Desaparición de comercio de proximidad</li>
-            <li>❌ Fragmentación de redes vecinales</li>
-            <li>❌ Pérdida de identidad cultural</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    with col2:
-        st.image("https://images.unsplash.com/photo-1557094005-176cbfe3554d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80", 
-                 caption="Barrio transformado por turistificación", use_column_width=True)
-    
-    # Section 5.2
-    st.markdown('<div class="section-header">5.2 Crisis de Accesibilidad Habitacional</div>', unsafe_allow_html=True)
-    st.markdown('<div class="subsection-header">Realidad Económica</div>', unsafe_allow_html=True)
-    
-    # Create metrics
-    col1, col2, col3 = st.columns(3)
-    
-    with col1:
-        st.markdown("""
-        <div class="metric-container">
-            <div class="metric-value">€28,000</div>
-            <div class="metric-label">Salario medio anual</div>
-            <div>en Barcelona</div>
-        </div>
-        """, unsafe_allow_html=True)
-        
-    with col2:
-        st.markdown("""
-        <div class="metric-container">
-            <div class="metric-value">>70%</div>
-            <div class="metric-label">Ingresos para alquiler</div>
-            <div>en zonas céntricas</div>
-        </div>
-        """, unsafe_allow_html=True)
-        
-    with col3:
-        st.markdown("""
-        <div class="metric-container">
-            <div class="metric-value">Expulsión</div>
-            <div class="metric-label">Consecuencia</div>
-            <div>de jóvenes hacia periferia</div>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    st.markdown('<div class="subsection-header">Segregación Socioespacial</div>', unsafe_allow_html=True)
-    
-    st.markdown("""
-    <div class="info">
-    <strong>Segregación Socioespacial:</strong>
-    <ul>
-        <li><strong>Centro:</strong> Turistificación + población flotante</li>
-        <li><strong>Periferia:</strong> Concentración de población con menor poder adquisitivo</li>
-        <li><strong>Resultado:</strong> Barcelona de "dos velocidades"</li>
-    </ul>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    # Section 5.3
-    st.markdown('<div class="section-header">5.3 Distorsión del Mercado Laboral</div>', unsafe_allow_html=True)
-    
-    tab1, tab2 = st.tabs(["Precarización Laboral", "Impacto en Sectores Productivos"])
-    
-    with tab1:
-        st.markdown("""
-        <div class="highlight">
-        <strong>Precarización Laboral:</strong>
-        <ul>
-            <li>↗️ Trabajos estacionales y baja cualificación</li>
-            <li>↘️ Empleos estables en sectores tradicionales</li>
-            <li>⚠️ Dependencia económica excesiva del turismo</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
-        
-    with tab2:
-        st.markdown("""
-        <div class="highlight">
-        <strong>Impacto en Sectores Productivos:</strong>
-        <ul>
-            <li>🧠 Dificultad para retener talento (altos costes residenciales)</li>
-            <li>🏭 Desplazamiento de actividad económica no turística</li>
-            <li>📉 Pérdida de diversificación económica</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    # Section 5.4
-    st.markdown('<div class="section-header">5.4 Riesgo de Burbuja Especulativa</div>', unsafe_allow_html=True)
-    
-    col1, col2 = st.columns(2)
-    
-    with col1:
-        st.markdown("""
-        <div class="warning">
-        <strong>Indicadores de Insostenibilidad:</strong>
-        <ul>
-            <li><strong>Crecimiento:</strong> 69.6% en 24 meses (no orgánico)</li>
-            <li><strong>Desconexión:</strong> Precios vs. fundamentales económicos locales</li>
-            <li><strong>Vulnerabilidad:</strong> Dependencia extrema de flujos turísticos</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
-        
-    with col2:
-        st.markdown("""
-        <div class="warning">
-        <strong>Riesgos Sistémicos:</strong>
-        <ul>
-            <li>💥 Colapso ante crisis turísticas (precedente COVID-19)</li>
-            <li>💰 Sobre-inversión en activos inmobiliarios turísticos</li>
-            <li>📉 Posible corrección brusca ante cambios regulatorios</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">IMPLICACIONES SOCIOECONÓMICAS</div>', unsafe_allow_html=True)
 
-# Recomendaciones
-elif app_mode == "📝 Recomendaciones":
-    st.markdown('<div class="sub-header">6. Recomendaciones Estratégicas</div>', unsafe_allow_html=True)
-    
-    # Section 6.1
-    st.markdown('<div class="section-header">6.1 Medidas Regulatorias Inmediatas</div>', unsafe_allow_html=True)
-    
     st.markdown("""
     <div class="highlight">
-    <strong>Control de Oferta y Moratoria:</strong>
-    <ul>
-        <li><strong>Moratoria total</strong> en nuevas licencias turísticas en barrios con más del 5% de viviendas turistificadas</li>
-        <li><strong>Límite máximo del 5%</strong> de viviendas turísticas por barrio en toda la ciudad (medida utilizada en ciudades como Nueva York)</li>
-        <li><strong>Reducción progresiva</strong> del 20% anual en barrios que superen el límite hasta alcanzar el objetivo</li>
-    </ul>
+    Este análisis revela las profundas consecuencias sociales y económicas de la turistificación en Barcelona, 
+    evidenciando una crisis de accesibilidad habitacional y transformación del tejido social que amenaza la 
+    sostenibilidad urbana a largo plazo.
     </div>
     """, unsafe_allow_html=True)
-    
-    st.markdown("""
-    <div class="highlight">
-    <strong>Refuerzo del Control y Sanciones:</strong>
-    <ul>
-        <li><strong>Incremento de sanciones:</strong> Multas para alojamientos ilegales</li>
-        <li><strong>Unidad especial de inspección:</strong> Inspectores dedicados exclusivamente al control turístico</li>
-        <li><strong>Tecnología de detección:</strong> Sistema de inteligencia artificial para identificar anuncios ilegales</li>
-        <li><strong>Responsabilidad de plataformas:</strong> Airbnb debe verificar licencias antes de publicar anuncios</li>
-    </ul>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    # Section 6.2
-    st.markdown('<div class="section-header">6.2 Medidas Fiscales Redistributivas</div>', unsafe_allow_html=True)
-    
-    st.markdown("""
-    <div class="info">
-    <strong>Incentivos para Alquiler Residencial:</strong>
-    <ul>
-        <li><strong>Bonificación fiscal del 30%</strong> para propietarios que conviertan alojamientos turísticos en residenciales</li>
-    </ul>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    # Section 6.3
-    st.markdown('<div class="section-header">6.3 Diversificación Económica</div>', unsafe_allow_html=True)
-    
-    st.markdown("""
-    <div class="info">
-    <strong>Promoción de Sectores Alternativos:</strong>
-    <ul>
-        <li><strong>Incentivos fiscales</strong> para empresas no turísticas que se instalen en zonas turistificadas</li>
-        <li><strong>Espacios de coworking municipales</strong> para atraer talento tecnológico y creativo</li>
-        <li><strong>Apoyo al comercio local</strong> con bonificaciones fiscales y programas de mentorización</li>
-    </ul>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    # Section 6.4
-    st.markdown('<div class="section-header">6.4 Participación Ciudadana y Transparencia</div>', unsafe_allow_html=True)
-    
-    tab1, tab2 = st.tabs(["Gobernanza Participativa", "Transparencia y Datos Abiertos"])
-    
+
+    # Key metrics
+    metrics = [
+        ("SALARIO NECESARIO", 
+         "€45,000", 
+         "Para acceder a alquiler en zonas céntricas"),
+        ("SALARIO PROMEDIO ANUAL", 
+         "€30,000", 
+         "Para la mayoría de la población local"),
+         ("POBLACIÓN DESPLAZADA", 
+         "+24%", 
+         "Migración forzada a la periferia en 3 años")
+    ]
+    create_metric_row(metrics)
+
+    # Create tabs for different sections
+    tab1, tab2, tab3 = st.tabs(["Gentrificación", "Crisis Habitacional", "Riesgo Especulativo"])
+
     with tab1:
         st.markdown("""
+            <div class="info">
+            <strong>Gentrificación Inversa:</strong>
+            <ul>
+                <li><strong>Definición:</strong> Proceso de expulsión de residentes locales por aumento de precios</li>
+                <li><strong>Consecuencia:</strong> Transformación de barrios históricos en zonas turísticas</li>
+                <li><strong>Impacto:</strong> Desplazamiento de población local hacia la periferia</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            
+    
+        st.markdown("""
+            <div class="highlight">
+            <strong>Mecanismo de Expulsión:</strong>
+            <ul>
+                <li><strong>Incentivo económico:</strong> Hasta 6x más rentable que alquiler tradicional</li>
+                <li><strong>Resultado:</strong> Retirada sistemática de viviendas del mercado residencial</li>
+                <li><strong>Agentes:</strong> Miles de pequeños propietarios actuando como gentrificadores involuntarios</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
+            
+       
+        st.markdown("""
+            <div class="warning">
+            <strong>Impactos Negativos:</strong>
+            <ul>
+                <li>❌ Pérdida de tejido social en barrios históricos</li>
+                <li>❌ Desaparición de comercio de proximidad</li>
+                <li>❌ Fragmentación de redes vecinales</li>
+                <li>❌ Pérdida de identidad cultural</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
+
+
+    with tab2:
+        # Add detailed analysis sections
+        st.markdown("""
         <div class="highlight">
-        <strong>Gobernanza Participativa:</strong>
+        <strong>Impactos Socioeconómicos:</strong>
         <ul>
-            <li><strong>Consejos de barrio</strong> con poder decisorio sobre nuevas licencias turísticas</li>
-            <li><strong>Consultas ciudadanas vinculantes</strong> para cambios normativos significativos</li>
-            <li><strong>Observatorio del turismo</strong> con participación vecinal y académica</li>
+            <li><strong>Segregación por ingresos:</strong> Concentración de rentas altas en centro y bajas en periferia</li>
+            <li><strong>Movilidad social reducida:</strong> Imposibilidad de acceso a zonas céntricas para nuevos hogares</li>
+            <li><strong>Presión sobre infraestructura:</strong> Saturación de transporte público y servicios en periferia</li>
         </ul>
         </div>
         """, unsafe_allow_html=True)
         
+        # Create two columns for detailed impacts
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown("""
+            <div class="warning">
+            <strong>Impacto en Centro:</strong>
+            <ul>
+                <li>🏘️ Pérdida de diversidad social</li>
+                <li>🏪 Desaparición comercio local</li>
+                <li>👥 Debilitamiento tejido vecinal</li>
+                <li>🎭 Pérdida identidad cultural</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
+            
+        with col2:
+            st.markdown("""
+            <div class="warning">
+            <strong>Impacto en Periferia:</strong>
+            <ul>
+                <li>📈 Presión al alza en precios</li>
+                <li>🚇 Saturación transporte</li>
+                <li>🏥 Sobrecarga servicios públicos</li>
+                <li>⏰ Aumento tiempos desplazamiento</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
+
+    with tab3:
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown("""
+            <div class="warning">
+            <strong>Indicadores de Insostenibilidad:</strong>
+            <ul>
+                <li><strong>Crecimiento:</strong> 69.6% en 24 meses (no orgánico)</li>
+                <li><strong>Desconexión:</strong> Precios vs. fundamentales económicos locales</li>
+                <li><strong>Vulnerabilidad:</strong> Dependencia extrema de flujos turísticos</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
+            
+        with col2:
+            st.markdown("""
+            <div class="warning">
+            <strong>Riesgos Sistémicos:</strong>
+            <ul>
+                <li>💥 Colapso ante crisis turísticas (precedente COVID-19)</li>
+                <li>💰 Sobre-inversión en activos inmobiliarios turísticos</li>
+                <li>📉 Posible corrección brusca ante cambios regulatorios</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
+
+# RECOMENDACIONES
+elif app_mode == "📝 Recomendaciones":
+    st.markdown('<div class="sub-header">RECOMENDACIONES ESTRATÉGICAS</div>', unsafe_allow_html=True)
+
+    st.markdown("""
+    <div class="highlight">
+    Este análisis propone un conjunto integral de medidas regulatorias, fiscales y sociales para reequilibrar 
+    el impacto de Airbnb en Barcelona, priorizando el derecho a la vivienda mientras se mantiene un turismo 
+    sostenible.
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Key metrics
+    metrics = [
+        ("VIVIENDAS A RECUPERAR", 
+         "9,500", 
+         "Para equilibrar el mercado residencial"),
+        ("TIEMPO ESTIMADO", 
+         "36 meses", 
+         "Para implementación completa")
+    ]
+    create_metric_row(metrics)
+    tab1, tab2 = st.tabs(["Medidas Regulatorias", "Resultados Esperados"])
+
+
+    with tab1:
+        # Create three columns for visual organization
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown("""
+            <div class="info" style="height: 180px;">
+            <strong>🎯 Control Inmediato:</strong>
+            <ul>
+                <li>🛑 <strong>Moratoria inmediata:</strong> En barrios con más del 5% de viviendas turísticas</li>
+                <li>⬇️ <strong>Reducción de alojamientos:</strong> Máximo 5% por barrio (medida implementada en NY)</li>
+                <li>👮 <strong>Inspección reforzada:</strong> Nueva unidad pública anti-fraude</li>
+                <li>💰 <strong>Sanciones disuasorias:</strong> Hasta €600,000 por infracciones graves</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
+            
+        with col2:
+            st.markdown("""
+            <div class="info" style="height: 180px;">
+            <strong>🔧 Herramientas de Control:</strong>
+            <ul>
+                <li>📊 <strong>Registro público:</strong> Transparente de alojamientos turísticos</li>
+                <li>✅ <strong>Responsabilidad plataforma:</strong> Obligatoriedad de contrastar licencias</li>
+                <li>🤖 <strong>Tecnología de detección:</strong> IA para identificar anuncios ilegales</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
     with tab2:
-        st.markdown("""
-        <div class="highlight">
-        <strong>Transparencia y Datos Abiertos:</strong>
-        <ul>
-            <li><strong>Portal público de datos</strong> con información actualizada sobre licencias y precios</li>
-            <li><strong>Informes trimestrales</strong> sobre impacto del turismo en cada barrio</li>
-            <li><strong>Indicadores de alerta temprana</strong> para prevenir procesos de turistificación</li>
-        </ul>
-        </div>
-        """, unsafe_allow_html=True)
+    
+        
+            # Create progress bars for visual impact
+            st.markdown("<div style='text-align: center; font-size: 1.2rem; color: #1E3A8A;'><strong>Objetivos a 36 meses</strong></div>", unsafe_allow_html=True)
+            
+            progress_data = [
+                ("Reducción alojamientos ilegales", 50),
+                ("Viviendas recuperadas", 45),
+                ("Estabilización precios", 35),
+                ("Modelo turístico sostenible", 30)
+            ]
+            
+            for label, value in progress_data:
+                st.markdown(f"**{label}**")
+                st.progress(value/100)
+                
+        
+            st.markdown("""
+            <div class="highlight">
+            <strong>Objetivos a 36 meses:</strong>
+            <ul>
+                <li>✅ Reducción 50% alojamientos ilegales</li>
+                <li>✅ Recuperación 9,500 viviendas para mercado residencial</li>
+                <li>✅ Estabilización precios alquiler en niveles 2022</li>
+                <li>✅ Modelo turístico sostenible y regulado</li>
+            </ul>
+            </div>
+            """, unsafe_allow_html=True)
 
 # Conclusiones
 elif app_mode == "🔍 Conclusiones":
