@@ -10,6 +10,12 @@
 
 Este proyecto analiza en profundidad el impacto de Airbnb en el mercado inmobiliario de Barcelona, revelando la correlación entre el crecimiento de alojamientos turísticos y la crisis habitacional que enfrenta la ciudad. El análisis se centra en datos del período 2024-2025, cuando se produjo un crecimiento exponencial de 69.6% en nuevos alojamientos Airbnb, coincidiendo con aumentos significativos en los precios de la vivienda.
 
+## 🌐 Dashboard Interactivo
+
+Explora nuestro [dashboard interactivo](https://insideairbnbbarcelona.streamlit.app/) para visualizar y analizar los datos en tiempo real.
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://insideairbnbbarcelona.streamlit.app/)
+
 ## 🔍 Objetivos
 
 - Cuantificar el impacto de los alojamientos turísticos en el mercado inmobiliario residencial
