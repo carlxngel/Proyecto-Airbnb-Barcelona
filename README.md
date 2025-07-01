@@ -1,7 +1,5 @@
 # 🏠 Análisis de la Turistificación y Crisis Habitacional (2024-2025)
 
-![Barcelona Skyline](https://i.imgur.com/XyNHgpW.jpeg)
-
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
