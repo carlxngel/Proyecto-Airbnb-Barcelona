@@ -10,19 +10,39 @@
 
 Este proyecto analiza en profundidad el impacto de Airbnb en el mercado inmobiliario de Barcelona, revelando la correlación entre el crecimiento de alojamientos turísticos y la crisis habitacional que enfrenta la ciudad. El análisis se centra en datos del período 2024-2025, cuando se produjo un crecimiento exponencial de 69.6% en nuevos alojamientos Airbnb, coincidiendo con aumentos significativos en los precios de la vivienda.
 
-## 🌐 Dashboard Interactivo
+Objetivo 1: Cuantificar con precisión el impacto económico de la turistificación en los precios residenciales
+Objetivo 2: Identificar los patrones geográficos de concentración y expansión de alojamientos turísticos
+Objetivo 3: Evaluar el cumplimiento normativo por zonas y tipos de operadores
+Objetivo 4: Desarrollar recomendaciones basadas en datos para políticas públicas de vivienda
 
-Explora nuestro [dashboard interactivo](https://insideairbnbbarcelona.streamlit.app/) para visualizar y analizar los datos en tiempo real.
+## 🔍 Top 3 Insights Principales
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://insideairbnbbarcelona.streamlit.app/)
+1️⃣ Crecimiento Explosivo No Orgánico (69.6% en 24 meses)
+<img alt="Gráfico de Crecimiento" src="https://i.imgur.com/FRxGcZ5.png">
+El 69.6% de los alojamientos Airbnb actuales fueron creados en los últimos 24 meses (2024-2025), evidenciando un crecimiento exponencial y no orgánico que coincide con un incremento del 43% en precios de alquiler residencial.
 
-## 🔍 Objetivos
+2️⃣ Distorsión Económica Estructural (6x Factor Multiplicador)
+<img alt="Distorsión Económica" src="https://i.imgur.com/LR8nSfM.png">
+Los alojamientos turísticos generan hasta 6 veces más ingresos que el alquiler residencial tradicional (hasta €7,285/mes vs €1,200/mes), creando un incentivo económico que hace irracional mantener viviendas en el mercado residencial.
 
-- Cuantificar el impacto de los alojamientos turísticos en el mercado inmobiliario residencial
-- Analizar la distribución geográfica de Airbnb por barrios y su correlación con precios de vivienda
-- Evaluar el cumplimiento normativo y la prevalencia de alojamientos sin licencia
-- Proporcionar recomendaciones basadas en datos para políticas públicas
-- Visualizar los datos de forma interactiva mediante una aplicación web
+3️⃣ Patrón de Incumplimiento Regulatorio (32% Sin Licencia)
+<img alt="Mapa de Incumplimiento" src="https://i.imgur.com/PtQnxZ2.png">
+El 32.03% de alojamientos (6,222 propiedades) operan sin licencia turística, con marcada diferencia entre particulares (33.3% irregulares) y empresas (9.9%), mostrando un fallo sistémico regulatorio que afecta desproporcionadamente a barrios periféricos.
+
+## 📊 Dashboard Interactivo
+Explore nuestro dashboard interactivo para profundizar en los datos y crear sus propios análisis:
+
+
+<img alt="Streamlit App" src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg">
+URL del Dashboard: https://insideairbnbbarcelona.streamlit.app/
+
+El dashboard permite:
+
+Filtrar datos por barrio, tipo de anfitrión y estado de licencia
+Visualizar mapas interactivos de concentración de alojamientos
+Comparar tendencias de precios residenciales vs. turísticos
+Explorar métricas de rendimiento económico
+Acceder a recomendaciones detalladas por zona
 
 ## 📊 Metodología
 
@@ -62,19 +82,35 @@ El proyecto sigue una metodología rigurosa basada en ciencia de datos:
 - **Scikit-learn**: Normalización y procesamiento de datos
 - **Streamlit**: Desarrollo de aplicación web interactiva
 
-## 🚀 Aplicación Web
+## 📸 Visualizaciones Destacadas
 
-La aplicación web desarrollada con Streamlit permite:
-- Visualizar datos interactivamente
-- Filtrar información por barrios
-- Explorar tendencias temporales
-- Comparar métricas clave
-- Acceder a mapas interactivos
+Distribución Geográfica de Alojamientos
+<img alt="Mapa de Calor" src="https://i.imgur.com/jKLZd1H.png">
+Mapa interactivo mostrando la distribución de alojamientos turísticos, con color diferenciando entre particulares y empresas, y tamaño representando el rendimiento económico mensual.
 
-Para ejecutar la aplicación:
-```bash
-streamlit run Código/app.py
-```
+Escalada de Precios Inmobiliarios (2015-2025)
+<img alt="Evolución de Precios" src="https://i.imgur.com/wN0FYpC.png">
+Evolución del precio de venta (€/m²) y alquiler (€/mes) en Barcelona, mostrando el incremento acelerado desde 2022.
 
-[resto del contenido se mantiene igual...]
+Top 10 Barrios más Afectados
+<img alt="Ranking de Barrios" src="https://i.imgur.com/RVs1kGt.png">
+Barrios con mayor porcentaje de viviendas turísticas, destacando La Dreta de l'Exemple con 12.3% de sus viviendas convertidas en alojamientos turísticos.
+
+## 🔧 Stack Tecnológico
+
+Tecnologías Utilizadas
+Python (3.8+): Lenguaje principal de programación
+Pandas (1.3+) & NumPy: Manipulación y procesamiento de datos
+Matplotlib & Seaborn: Visualizaciones estáticas y análisis exploratorio
+Plotly (5.10+): Gráficos interactivos para el dashboard
+Streamlit (1.28+): Desarrollo de aplicación web interactiva
+Scikit-learn: Normalización de datos y segmentación de mercado
+Git & GitHub: Control de versiones y colaboración
+
+## 📚 Fuentes de Datos
+
+Inside Airbnb (Datos de alojamientos turísticos): http://insideairbnb.com/barcelona/
+Registro de Turismo de Cataluña (Licencias oficiales): https://registreturisme.catalunya.cat/
+Idealista (Precios históricos residenciales): https://www.idealista.com/data/
+INE (Datos socioeconómicos): https://www.ine.es/
 
