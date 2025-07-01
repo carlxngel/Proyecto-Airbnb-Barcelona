@@ -1,6 +1,9 @@
 # 🏠 Análisis de la Turistificación y Crisis Habitacional (2024-2025)
 
-![Portada](imágenes\portada repositorio.png)
+<div align="center">
+    <img src="imágenes/portada_repositorio.png" alt="Portada del Proyecto" width="100%">
+</div>
+
 
 <div align="center">
 
