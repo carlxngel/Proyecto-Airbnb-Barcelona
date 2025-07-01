@@ -1,11 +1,6 @@
 # 🏠 Análisis de la Turistificación y Crisis Habitacional (2024-2025)
 
 <div align="center">
-    <img src="imágenes/portada_repositorio.png" alt="Portada del Proyecto" width="100%">
-</div>
-
-
-<div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
@@ -53,7 +48,6 @@ Este proyecto analiza en profundidad el impacto de Airbnb en el mercado inmobili
 
 El 69.6% de los alojamientos Airbnb actuales fueron creados en los últimos 24 meses (2024-2025), evidenciando un crecimiento exponencial y no orgánico que coincide con un incremento del 43% en precios de alquiler residencial.
 
-![precios](imágenes\relacion precios.png)
 
 ### 2️⃣ Distorsión Económica Estructural (6x Factor Multiplicador)
 <div align="center">
@@ -61,15 +55,12 @@ El 69.6% de los alojamientos Airbnb actuales fueron creados en los últimos 24 m
 
 Los alojamientos turísticos generan hasta 6 veces más ingresos que el alquiler residencial tradicional (hasta €7,285/mes vs €1,200/mes), creando un incentivo económico que hace irracional mantener viviendas en el mercado residencial.
 
-![Roi](imágenes\roi.png)
 
 ### 3️⃣ Patrón de Incumplimiento Regulatorio (32% Sin Licencia)
 <div align="center">
 </div>
 
 El 32.03% de alojamientos (6,222 propiedades) operan sin licencia turística, con marcada diferencia entre particulares (33.3% irregulares) y empresas (9.9%), mostrando un fallo sistémico regulatorio que afecta desproporcionadamente a barrios periféricos.
-
-![Licencias](imágenes\licencias.png)
 
 ## 📊 Dashboard Interactivo
 
