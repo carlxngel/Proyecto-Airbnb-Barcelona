@@ -38,21 +38,18 @@ Este proyecto analiza en profundidad el impacto de Airbnb en el mercado inmobili
 
 ### 1️⃣ Crecimiento Explosivo No Orgánico (69.6% en 24 meses)
 <div align="center">
-<img alt="Gráfico de Crecimiento" src="https://i.imgur.com/FRxGcZ5.png">
 </div>
 
 El 69.6% de los alojamientos Airbnb actuales fueron creados en los últimos 24 meses (2024-2025), evidenciando un crecimiento exponencial y no orgánico que coincide con un incremento del 43% en precios de alquiler residencial.
 
 ### 2️⃣ Distorsión Económica Estructural (6x Factor Multiplicador)
 <div align="center">
-<img alt="Distorsión Económica" src="https://i.imgur.com/LR8nSfM.png">
 </div>
 
 Los alojamientos turísticos generan hasta 6 veces más ingresos que el alquiler residencial tradicional (hasta €7,285/mes vs €1,200/mes), creando un incentivo económico que hace irracional mantener viviendas en el mercado residencial.
 
 ### 3️⃣ Patrón de Incumplimiento Regulatorio (32% Sin Licencia)
 <div align="center">
-<img alt="Mapa de Incumplimiento" src="https://i.imgur.com/PtQnxZ2.png">
 </div>
 
 El 32.03% de alojamientos (6,222 propiedades) operan sin licencia turística, con marcada diferencia entre particulares (33.3% irregulares) y empresas (9.9%), mostrando un fallo sistémico regulatorio que afecta desproporcionadamente a barrios periféricos.
@@ -64,8 +61,6 @@ El 32.03% de alojamientos (6,222 propiedades) operan sin licencia turística, co
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://insideairbnbbarcelona.streamlit.app/)
 
 </div>
-
-URL del Dashboard: https://insideairbnbbarcelona.streamlit.app/
 
 ### Funcionalidades:
 - 🔍 Filtrar datos por barrio, tipo de anfitrión y estado de licencia
