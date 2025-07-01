@@ -22,6 +22,20 @@ Este proyecto analiza en profundidad el impacto de Airbnb en el mercado inmobili
 - 🎯 **Objetivo 3:** Evaluar el cumplimiento normativo por zonas y tipos de operadores
 - 🎯 **Objetivo 4:** Desarrollar recomendaciones basadas en datos para políticas públicas de vivienda
 
+## 💾 Estructura del Repositorio
+
+├── data/
+│   ├── datos vivienda turistica bcn oficiales.csv    # Datos oficiales de licencias turísticas
+│   ├── housing_prices_barcelona_2015_2025.csv        # Serie histórica de precios inmobiliarios
+│   ├── limpio_airbnb_Barcelona.csv                   # Dataset limpio y procesado
+│   └── listings.csv                                  # Dataset original de Airbnb
+├── Código/
+│   ├── EDA.ipynb                                     # Análisis exploratorio de datos
+│   ├── preprocesamiento.ipynb                        # Limpieza y preparación de datos
+│   └── app.py                                        # Aplicación Streamlit
+├── Conclusiones y recomendaciones.md                 # Informe completo con hallazgos y recomendaciones
+└── README.md                                         # Documentación del proyecto
+
 ## 🔍 Top 3 Insights Principales
 
 ### 1️⃣ Crecimiento Explosivo No Orgánico (69.6% en 24 meses)
@@ -62,6 +76,22 @@ URL del Dashboard: https://insideairbnbbarcelona.streamlit.app/
 - 📊 Explorar métricas de rendimiento económico
 - 📝 Acceder a recomendaciones detalladas por zona
 
-[Contenido restante se mantiene igual con el mismo formato mejorado...]
+## 🔧 Stack Tecnológico y Responsabilidades
 
+Tecnologías Utilizadas
+Python (3.8+): Lenguaje principal de programación
+Pandas (1.3+) & NumPy: Manipulación y procesamiento de datos
+Matplotlib & Seaborn: Visualizaciones estáticas y análisis exploratorio
+Plotly (5.10+): Gráficos interactivos para el dashboard
+Streamlit (1.28+): Desarrollo de aplicación web interactiva
+Scikit-learn: Normalización de datos y segmentación de mercado
+Git & GitHub: Control de versiones y colaboración
+División de Responsabilidade
+
+## 📚 Fuentes de Datos
+Inside Airbnb (Datos de alojamientos turísticos): http://insideairbnb.com/barcelona/
+
+Registro de Turismo de Cataluña (Licencias oficiales): https://registreturisme.catalunya.cat/
+
+Idealista (Precios históricos residenciales): https://www.idealista.com/data/
 
