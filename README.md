@@ -1,5 +1,7 @@
 # 🏠 Análisis de la Turistificación y Crisis Habitacional (2024-2025)
 
+![Portada](imágenes\portada repositorio.png)
+
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -22,17 +24,23 @@ Este proyecto analiza en profundidad el impacto de Airbnb en el mercado inmobili
 
 ## 💾 Estructura del Repositorio
 
-├── data/
-│   ├── datos vivienda turistica bcn oficiales.csv    # Datos oficiales de licencias turísticas
+```plaintext
+📁 Proyecto-2/
+│
+├── 📊 data/
+│   ├── datos_vivienda_turistica_bcn_oficiales.csv    # Datos oficiales de licencias turísticas
 │   ├── housing_prices_barcelona_2015_2025.csv        # Serie histórica de precios inmobiliarios
 │   ├── limpio_airbnb_Barcelona.csv                   # Dataset limpio y procesado
 │   └── listings.csv                                  # Dataset original de Airbnb
-├── Código/
+│
+├── 💻 Código/
 │   ├── EDA.ipynb                                     # Análisis exploratorio de datos
 │   ├── preprocesamiento.ipynb                        # Limpieza y preparación de datos
 │   └── app.py                                        # Aplicación Streamlit
-├── Conclusiones y recomendaciones.md                 # Informe completo con hallazgos y recomendaciones
-└── README.md                                         # Documentación del proyecto
+│
+├── 📝 Conclusiones y recomendaciones.md              # Informe completo con hallazgos
+└── 📘 README.md                                      # Documentación del proyecto
+```
 
 ## 🔍 Top 3 Insights Principales
 
@@ -42,17 +50,23 @@ Este proyecto analiza en profundidad el impacto de Airbnb en el mercado inmobili
 
 El 69.6% de los alojamientos Airbnb actuales fueron creados en los últimos 24 meses (2024-2025), evidenciando un crecimiento exponencial y no orgánico que coincide con un incremento del 43% en precios de alquiler residencial.
 
+![precios](imágenes\relacion precios.png)
+
 ### 2️⃣ Distorsión Económica Estructural (6x Factor Multiplicador)
 <div align="center">
 </div>
 
 Los alojamientos turísticos generan hasta 6 veces más ingresos que el alquiler residencial tradicional (hasta €7,285/mes vs €1,200/mes), creando un incentivo económico que hace irracional mantener viviendas en el mercado residencial.
 
+![Roi](imágenes\roi.png)
+
 ### 3️⃣ Patrón de Incumplimiento Regulatorio (32% Sin Licencia)
 <div align="center">
 </div>
 
 El 32.03% de alojamientos (6,222 propiedades) operan sin licencia turística, con marcada diferencia entre particulares (33.3% irregulares) y empresas (9.9%), mostrando un fallo sistémico regulatorio que afecta desproporcionadamente a barrios periféricos.
+
+![Licencias](imágenes\licencias.png)
 
 ## 📊 Dashboard Interactivo
 
@@ -69,22 +83,21 @@ El 32.03% de alojamientos (6,222 propiedades) operan sin licencia turística, co
 - 📊 Explorar métricas de rendimiento económico
 - 📝 Acceder a recomendaciones detalladas por zona
 
-## 🔧 Stack Tecnológico y Responsabilidades
+## 🔧 Stack Tecnológico
 
-Tecnologías Utilizadas
-Python (3.8+): Lenguaje principal de programación
-Pandas (1.3+) & NumPy: Manipulación y procesamiento de datos
-Matplotlib & Seaborn: Visualizaciones estáticas y análisis exploratorio
-Plotly (5.10+): Gráficos interactivos para el dashboard
-Streamlit (1.28+): Desarrollo de aplicación web interactiva
-Scikit-learn: Normalización de datos y segmentación de mercado
-Git & GitHub: Control de versiones y colaboración
-División de Responsabilidade
+### 🛠️ Tecnologías Utilizadas
 
-## 📚 Fuentes de Datos
-Inside Airbnb (Datos de alojamientos turísticos): http://insideairbnb.com/barcelona/
+<div align="center">
 
-Registro de Turismo de Cataluña (Licencias oficiales): https://registreturisme.catalunya.cat/
+| Tecnología | Versión | Propósito |
+|------------|---------|-----------|
+| Python | 3.8+ | Lenguaje principal de programación |
+| Pandas & NumPy | 1.3+ | Manipulación y procesamiento de datos |
+| Matplotlib & Seaborn | Latest | Visualizaciones estáticas y análisis |
+| Plotly | 5.10+ | Gráficos interactivos para dashboard |
+| Streamlit | 1.28+ | Desarrollo de aplicación web |
+| Scikit-learn | Latest | Normalización y segmentación |
+| Git & GitHub | -- | Control de versiones |
 
-Idealista (Precios históricos residenciales): https://www.idealista.com/data/
+</div>
 
